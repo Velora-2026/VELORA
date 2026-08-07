@@ -26,13 +26,13 @@ export const PRODUCTS = [
     description:
       "A luminous golden-peach gloss that melts effortlessly onto the lips, delivering a soft wash of warm colour and a glass-like shine. Lightweight, smooth, and irresistibly radiant, Gold Flamingo is your everyday touch of golden luxury.",
     price: 12.0,
-    image: "/images/gold-flamingo.png",
+    image: "./images/gold-flamingo.png",
   },
 ];
 
-export const HERO_IMAGE = "/images/hero.png";
+export const HERO_IMAGE = "./images/hero.png";
 export const PACKAGING_IMAGE = "https://media.base44.com/images/public/6a6eb0bb46509b7ba7336f44/4ca41c2cb_generated_76cbc6a8.png";
-export const PRIVILEGE_IMAGE = "/images/privilege-card.png";
+export const PRIVILEGE_IMAGE = "./images/privilege-card.png";
 
 // Gallery reuses product + packaging imagery for a cohesive Instagram-style feed.
 export const GALLERY_IMAGES = [
