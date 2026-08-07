@@ -1,15 +1,14 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { Camera, Music2, MessageCircle, Mail, Phone } from "lucide-react";
+import { Camera, Music2, MessageCircle, Mail } from "lucide-react";
 import { BRAND } from "@/lib/veloraData";
 
 const CONTACTS = [
-  { icon: Camera, label: "Instagram", value: "@velorabeauty", href: BRAND.instagram },
-  { icon: Music2, label: "TikTok", value: "@velorabeauty", href: BRAND.tiktok },
+  { icon: Camera, label: "Instagram", value: "@velora.beauty.2026", href: BRAND.instagram },
+  { icon: Music2, label: "TikTok", value: "@velora_beauty_2026", href: BRAND.tiktok },
   { icon: Camera, label: "Facebook", value: "VELORA Beauty", href: BRAND.facebook },
-  { icon: MessageCircle, label: "WhatsApp", value: BRAND.phone, href: BRAND.whatsapp },
+  { icon: MessageCircle, label: "WhatsApp", value: "Message us on WhatsApp", href: BRAND.whatsapp },
   { icon: Mail, label: "Email", value: BRAND.email, href: `mailto:${BRAND.email}` },
-  { icon: Phone, label: "Phone", value: BRAND.phone, href: `tel:${BRAND.phone.replace(/[^+\d]/g, "")}` },
 ];
 
 export default function Contact() {

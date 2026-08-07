@@ -6,8 +6,8 @@ import { PACKAGING_IMAGE } from "@/lib/veloraData";
 
 const DETAILS = [
   { icon: Box, title: "Black Luxury Box", text: "Each gloss is nestled in a sleek matte black box." },
-  { icon: Crown, title: "Gold Logo", text: "Embossed gold branding for an opulent first impression." },
-  { icon: Layers, title: "Premium Tissue Paper", text: "Layered soft tissue to cradle every detail." },
+  { icon: Crown, title: "Signature VELORA Branding", text: "A timeless black finish with VELORA lettering in crisp white — minimal, refined, and unmistakably VELORA." },
+  { icon: Layers, title: "Signature Black Filler", text: "Elegant black crinkle paper that adds texture, depth, and a polished finish to every VELORA unboxing." },
   { icon: ShieldCheck, title: "Secure Protective Packaging", text: "Shipped safe, arriving flawless — every time." },
 ];
 

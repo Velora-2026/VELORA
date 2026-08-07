@@ -48,11 +48,11 @@ export default function PrivilegeCard() {
               <div className="absolute -inset-4 bg-[#D4AF37]/10 blur-2xl rounded-lg" />
               <div className="relative luxury-shadow rounded-lg overflow-hidden border border-[#D4AF37]/40 animate-pulse-gold">
                 <Image
-                  src={PRIVILEGE_IMAGE}
-                  alt="VELORA Privilege Card with gold ornament design"
-                  fittingType="fill"
-                  className="w-full aspect-[4/3]"
-                />
+  src={PRIVILEGE_IMAGE}
+  alt="VELORA Privilege Card with gold ornament design"
+  fittingType="contain"
+  className="w-full aspect-[7/4]"
+/>
               </div>
             </div>
           </motion.div>

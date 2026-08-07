@@ -41,7 +41,9 @@ export default function Footer() {
 
           {/* Links */}
           <div className="text-center">
-            <h3 className="text-[0.65rem] tracking-luxe uppercase text-[#D4AF37] mb-5">Explore</h3>
+            <h3 className="text-[0.65rem] tracking-luxe uppercase text-[#D4AF37] mb-5">
+              Explore
+            </h3>
             <ul className="flex flex-col gap-3">
               {LINKS.map((l) => (
                 <li key={l.href}>
@@ -58,17 +60,19 @@ export default function Footer() {
 
           {/* Contact + socials */}
           <div className="text-center md:text-right">
-            <h3 className="text-[0.65rem] tracking-luxe uppercase text-[#D4AF37] mb-5">Connect</h3>
+            <h3 className="text-[0.65rem] tracking-luxe uppercase text-[#D4AF37] mb-5">
+              Connect
+            </h3>
+
             <p className="text-sm text-foreground/70">
-              <a href={`mailto:${BRAND.email}`} className="hover:text-[#D4AF37] transition-colors">
+              <a
+                href={`mailto:${BRAND.email}`}
+                className="hover:text-[#D4AF37] transition-colors"
+              >
                 {BRAND.email}
               </a>
             </p>
-            <p className="text-sm text-foreground/70 mt-1">
-              <a href={`tel:${BRAND.phone.replace(/[^+\d]/g, "")}`} className="hover:text-[#D4AF37] transition-colors">
-                {BRAND.phone}
-              </a>
-            </p>
+
             <div className="flex md:justify-end justify-center gap-3 mt-5">
               {SOCIALS.map((s) => (
                 <a

@@ -4,13 +4,18 @@
 export const BRAND = {
   name: "VELORA",
   tagline: "Beauty",
-  whatsappNumber: "15551234567", // WhatsApp Business number (digits only, country code). Replace with your own.
-  email: "hello@velorabeauty.ca",
-  phone: "+1 (555) 123-4567",
-  instagram: "https://instagram.com",
-  tiktok: "https://tiktok.com",
-  facebook: "https://facebook.com",
-  whatsapp: "https://wa.me/15551234567",
+
+  // 🔐 Enter your WhatsApp number yourself.
+  // Digits only, including your country code.
+  whatsappNumber: "+13659969844",
+
+  email: "velora.beauty2026@gmail.com",
+
+  instagram: "https://instagram.com/velora.beauty.2026",
+  tiktok: "https://tiktok.com/@velora_beauty_2026",
+  facebook: "https://www.facebook.com/share/18ShrsHazX/?mibextid=wwXIfr",
+
+  whatsapp: "https://wa.me/+13659969844",
 };
 
 export const PRODUCTS = [
@@ -25,16 +30,13 @@ export const PRODUCTS = [
   },
 ];
 
-export const HERO_IMAGE = "https://media.base44.com/images/public/6a6eb0bb46509b7ba7336f44/8f7ad192e_generated_644a1812.png";
+export const HERO_IMAGE = "/images/hero.png";
 export const PACKAGING_IMAGE = "https://media.base44.com/images/public/6a6eb0bb46509b7ba7336f44/4ca41c2cb_generated_76cbc6a8.png";
-export const PRIVILEGE_IMAGE = "https://media.base44.com/images/public/6a6eb0bb46509b7ba7336f44/a4e4d1853_generated_987eb8f7.png";
+export const PRIVILEGE_IMAGE = "/images/privilege-card.png";
 
 // Gallery reuses product + packaging imagery for a cohesive Instagram-style feed.
 export const GALLERY_IMAGES = [
   PRODUCTS[0].image,
-  PRODUCTS[3].image,
   PACKAGING_IMAGE,
-  PRODUCTS[1].image,
-  PRODUCTS[2].image,
   HERO_IMAGE,
 ];

@@ -98,8 +98,7 @@ export default function Products() {
           </h2>
           <div className="gold-divider w-24 mx-auto mt-6" />
           <p className="text-muted-foreground mt-6 leading-relaxed">
-            Four handcrafted shades, each poured in small batches with premium ingredients for
-            high shine and comfortable, luxurious wear.
+            One signature creation, handcrafted in small batches with premium ingredients for luminous shine and a smooth, luxurious feel.
           </p>
         </motion.div>
 
