@@ -31,7 +31,7 @@ export const PRODUCTS = [
 ];
 
 export const HERO_IMAGE = "./images/hero.png";
-export const PACKAGING_IMAGE = "/images/packaging.jpeg";
+export const PACKAGING_IMAGE = "./images/packaging.jpeg";
 export const PRIVILEGE_IMAGE = "./images/privilege-card.png";
 
 // Gallery reuses product + packaging imagery for a cohesive Instagram-style feed.
