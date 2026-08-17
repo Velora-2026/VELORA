@@ -31,7 +31,7 @@ export const PRODUCTS = [
 ];
 
 export const HERO_IMAGE = "./images/hero.png";
-export const PACKAGING_IMAGE = "https://media.base44.com/images/public/6a6eb0bb46509b7ba7336f44/4ca41c2cb_generated_76cbc6a8.png";
+export const PACKAGING_IMAGE = "/images/packaging.jpeg";
 export const PRIVILEGE_IMAGE = "./images/privilege-card.png";
 
 // Gallery reuses product + packaging imagery for a cohesive Instagram-style feed.
