@@ -27,11 +27,11 @@ export default function Packaging() {
             <div className="absolute -inset-3 bg-[#D4AF37]/10 blur-2xl rounded-lg" />
             <div className="relative luxury-shadow rounded-lg overflow-hidden border border-[#D4AF37]/20">
               <Image
-                src={PACKAGING_IMAGE}
-                alt="VELORA luxury black packaging with gold accents"
-                fittingType="fill"
-                className="w-full aspect-[4/3]"
-              />
+  src={PACKAGING_IMAGE}
+  alt="VELORA luxury black packaging with gold accents"
+  fittingType="contain"
+  className="w-full h-auto"
+/>
             </div>
           </motion.div>
 
