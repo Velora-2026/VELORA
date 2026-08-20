@@ -25,7 +25,7 @@ export const PRODUCTS = [
     shade: "Golden Peach",
     description:
       "A luminous golden-peach gloss that melts effortlessly onto the lips, delivering a soft wash of warm colour and a glass-like shine. Lightweight, smooth, and irresistibly radiant, Gold Flamingo is your everyday touch of golden luxury.",
-    price: 12.0,
+    price: 16.0,
     image: "./images/gold-flamingo.png",
   },
 ];
