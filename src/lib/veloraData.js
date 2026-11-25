@@ -12,7 +12,7 @@ export const BRAND = {
   email: "velora.beauty2026@gmail.com",
 
   instagram: "https://instagram.com/velora.beauty.ca",
-  tiktok: "https://tiktok.com/@velora_beauty_2026",
+  tiktok: "https://tiktok.com/@velora.beauty.ca",
   facebook: "https://www.facebook.com/share/18ShrsHazX/?mibextid=wwXIfr",
 
   whatsapp: "https://wa.me/+13659969844",
