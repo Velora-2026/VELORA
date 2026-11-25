@@ -11,7 +11,7 @@ export const BRAND = {
 
   email: "velora.beauty2026@gmail.com",
 
-  instagram: "https://instagram.com/velora.beauty.2026",
+  instagram: "https://instagram.com/velora.beauty.ca",
   tiktok: "https://tiktok.com/@velora_beauty_2026",
   facebook: "https://www.facebook.com/share/18ShrsHazX/?mibextid=wwXIfr",
 
